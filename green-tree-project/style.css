@@ -1,0 +1,916 @@
+
+/* HEADER-PART */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    background: white;
+    border-radius: 12px;
+}
+
+.header {
+    padding: 24px 20px;
+    background: #fafafa;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: 700;
+    color:#354463;
+    line-height: 1.3;
+    margin-bottom: 20px;
+    margin-top: 0.5rem;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-right: 10px;
+}
+
+.nav a {
+    color: #354463;
+    text-decoration: none;
+    font-size: 15px;
+    transition: color 0.2s;
+}
+
+.donate-section {
+    padding: 20px;
+}
+
+.donate-button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background: #C1F7D5;
+    color:#354463;
+    font-size: 16px;
+    font-weight: 800;
+    font:bold;
+    border: none;
+    border-radius: 25px;
+    margin-bottom: 1rem;
+    margin-top: -1rem
+}
+
+
+.stop_climate_change_section{
+    background: url('./assets/home/annie-spratt-135307-unsplash.png') no-repeat calc(50% + 30%) center;
+    background-size: cover;
+    background-color: rgb(11, 22, 59);
+    flex-direction: column;
+    padding-bottom: 4rem;
+    padding-top: 2rem;
+    object-fit: cover;
+}
+
+.stop_climate_change_section > h2{
+    width: min-content;
+    margin-bottom: 7.938rem;
+}
+
+.stop_climate_change_section > div > div{
+    font-family: 'Helvetica';
+    line-height: 1.3;
+    padding: 3rem 1.188rem 2rem 1.188rem;
+    background: white;
+    position: relative;
+}
+
+.stop_climate_change_section > div > div > h3{
+    font-size: 1.375rem;
+    margin-bottom: 2rem;
+}
+
+.stop_climate_change_section > div > div > button{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.grid{
+    display: grid;
+}
+
+.rounded{
+    border-radius: 20px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.text_center{
+    text-align: center;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.text_blue{
+    color: #354463;
+    font:bold;
+    font-size: 0.9rem; 
+    margin-right: 0rem; 
+}
+.text{
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #354463;
+}
+
+
+
+.text_white{
+    color: white;
+}
+
+.text_green{
+    color: #C1F7D5;
+}
+
+.bg_green{
+    background-color: #C1F7D5;
+}
+
+.bg_blue{
+    background-color: #354463;
+}
+
+.bg_white{
+    background-color: white;
+}
+
+.square_btn{
+    border: none;
+    outline: none;
+    font-size: 0.875rem;
+    padding: 11px 40px;
+    letter-spacing: 0.56px;
+    opacity: 1;
+    
+}
+
+.flood_font{
+    font-family: "flood-std", sans-serif;;
+    line-height: 1.1;
+    font-size: 2.75rem;
+}
+.take_action_section{
+        grid-template-columns: auto auto;
+        gap: 1.625rem 1.5rem;
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+        position: relative;
+    }
+
+    .take_action_section > div > h5{
+        font-size: 1.125rem;
+    }
+
+    .take_action_section > div > p{
+        font-size: 0.875rem;
+    }
+
+    .take_action_section > button{
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .what_we_do_session{
+    padding-top: 2.688rem;
+    padding-bottom: 2.688rem;
+}
+
+.what_we_do_session > section{
+    flex-direction: column;
+}
+
+.what_we_do_session > div{
+    text-align: center;
+    flex-direction: column;
+}
+
+.what_we_do_session > div > button{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1.375rem;
+}
+
+.what_we_do_session > div > p{
+    font-size: 1.375rem;
+}
+
+.what_we_do_session_card{
+    position: relative;
+    margin-top: 5.125rem;
+}
+
+.what_we_do_session_card > div{
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 11.125rem 2.188rem 2rem 2.188rem;
+}
+
+.what_we_do_session_card > img{
+    position: absolute;
+    top: 14%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    max-height: 60%;
+}
+
+.what_we_do_session_card > div > button{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.what_we_do_session_card > div > div > h6{
+    font-size: 1.125rem;
+}
+
+.what_we_do_session_card > div > div > p{
+    font-size: 0.875rem;
+    margin-top: 1.375rem;
+    margin-bottom: 1.938rem;
+}
+.did_you_know_section{
+    background: transparent url('./assets/home/Did\ you\ know\ background.png') no-repeat 0% 0% ;
+    background-size: cover;
+    flex-direction: column;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.did_you_know_section  > div{
+    width: 80%;
+}
+
+.did_you_know_section > div > h2{
+    margin-bottom: 1rem;
+}
+
+.did_you_know_section_card{
+    padding: 2rem;
+    margin-top: 1rem;
+}
+
+.did_you_know_section_first_card{
+    margin-top: 5rem;
+    position: relative;
+}
+
+.did_you_know_section_first_card > button{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: max-content;
+}
+
+.did_you_know_section_card > div{
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.did_you_know_section_card > div > span > svg{
+    height: 32px;
+    width: 32px;
+    padding: 3px;
+}
+
+.did_you_know_section_card > div > h6{
+    font-size: 1.375rem;
+    color:#354463;
+}
+
+.did_you_know_section_card > div > p{
+    font-size: 0.875rem;
+}
+.story_section{
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3.5rem;
+}
+
+.story_section_img_div{
+    position: relative;
+}
+
+.story_section_img_div > button{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.story_section_img_div > img{
+    width: 100%;
+}
+
+.story_section > div{
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2.563rem;
+}
+
+.story_section > div > div{
+    padding: 1.813rem 2rem;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.story_section > div > div > p{
+    font-size: 1.375rem;
+    margin-bottom: 1rem;
+}
+
+.story_section > div > div > span{
+    font-size: 0.688rem;
+}
+.event_section,
+.event_section_first_card,
+.event_section_second_card {
+    flex-direction: column;
+    text-align: center;
+}
+
+.event_section {
+    padding-top: 4.313rem;
+    padding-bottom: 4.313rem;
+}
+
+.event_section>section {
+    flex-direction: column;
+}
+
+.event_section_first_card>div>img,
+.event_section_second_card>div>img {
+    width: 100%;
+}
+
+.event_section_first_card>div>h3,
+.event_section_second_card>div>h3 {
+    font-size: 1.375rem;
+    margin-top: 1.875rem;
+}
+
+.event_section_first_card>div>p,
+.event_section_second_card>div>p {
+    font-size: 0.875rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.event_section_first_card,
+.event_section_second_card {
+    margin-top: 4.563rem;
+}
+
+.event_section_first_card>div,
+.event_section_second_card>div {
+    position: relative;
+}
+
+.event_section_rel_btn {
+    position: absolute;
+    width: max-content;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hidden_btn{
+    display: none;
+}
+.email_section {
+    flex-direction: column;
+    padding-top: 2.25rem;
+    padding-bottom: 2.25rem;
+}
+
+.email_section>h6 {
+    font-size: 1.375rem;
+}
+
+.email_section>div {
+    justify-content: space-between;
+    margin-top: 1.875rem;
+}
+
+.email_section>div>input {
+    width: 50%
+}
+
+footer{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 3rem;
+    margin-top: 3rem;
+}
+
+footer > h1{
+    font-size: 1.125rem;
+    width: 30%;
+}
+
+footer > div{
+    width: 40%;
+}
+
+.footer_contact_us{
+    margin-left: auto;
+}
+
+footer > h2{
+    width: min-content;
+    margin-left: auto;
+}
+
+footer > div > p{
+    font-size: 0.688rem;
+    margin-bottom: 6px;
+}
+
+footer > div > div{
+    font-size: 0.875rem;
+}
+
+footer > div > div > a{
+    margin-top: 4px;
+}
+
+
+@media screen and (min-width: 768px){
+    nav{
+        grid-template-columns: auto 25%;
+    }
+
+    ul{
+        flex-direction: row;
+        align-self: flex-start;
+        padding: 0;
+        width: 70%;
+        justify-content: space-between;
+    }
+
+    nav > div{
+        flex-direction: column;
+        margin-bottom: 0;
+        align-items: flex-start;
+    }
+
+    .list_items_margin{
+        margin-bottom: 0;
+    }
+
+    nav > div > h1{
+        margin-bottom: 1rem;
+        font-size: 1.375rem;
+    }
+
+    .nav_btn{
+        height: fit-content;
+        font-size: 1.125rem;
+        align-self: center;
+    }
+    .stop_climate_change_section > h2{
+        margin-bottom: 3rem;
+    }
+
+    .stop_climate_change_section > div > div{
+        padding: 3.688rem 4rem;
+    }
+
+    .stop_climate_change_section > div > div > h3{
+        font-size: 2.688rem;
+    }
+
+    .stop_climate_change_section > div > div > button{
+        left: 0;
+        transform: translate(0,-50%);
+        margin-left: 3.688rem;
+    }
+    .layout_padding{
+        padding: 1.25rem 4rem;
+    }
+    .take_action_section > div > h5{
+        font-size: 1.375rem;
+    }
+
+    .take_action_section > div > p{
+        font-size: 1rem;
+    }
+    .what_we_do_session > section{
+        flex-direction: column;
+    }
+
+    .what_we_do_session > div > p{
+        font-size: 2.25rem;
+        text-align: left;
+    }
+
+    .what_we_do_session > div > button{
+        margin-left: 0;
+    }
+
+    .what_we_do_session_card{
+        padding-bottom: 3.125rem;;
+        margin-top: 7rem;
+    }
+
+    .what_we_do_session_card > img{
+        left: 30px;
+        transform: translate(0, -50%);
+        width: 45%;
+        max-height: 70%;
+        
+    }
+
+    .what_we_do_session_card > div{
+        padding: 0;
+        padding-top: 2.25rem;
+        text-align: left;
+        
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: "col2 col1";  
+    }
+
+    .what_we_do_session_card > div > div{
+        grid-area: col2;
+        grid-column: 2;
+        margin-left: -8rem;
+        margin-top: 4rem;
+    }
+
+    .what_we_do_session_card > div > button{
+        margin-left: 5rem;
+        margin-top: 25rem;
+        position: absolute;
+        left:2rem;
+        margin-bottom:4rem;
+
+        
+    }
+
+    .what_we_do_session_card > div > div > p{
+        margin-bottom: 0;
+        margin-top: -1.5rem;
+        padding-bottom: 2rem;
+        margin-right: 3.625rem;
+        position: relative;
+    }
+
+    .what_we_do_session_card > div > div > h6{
+        font-size: 1.5rem;
+        width: 60%;
+    }
+    .did_you_know_section{
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 2rem;
+        background-position: 50% 50%;
+    }
+
+    .did_you_know_section  > div{
+        width: 35%;
+    }
+
+    .did_you_know_section_first_card{
+        margin-top: 1rem;
+    }
+
+    .did_you_know_section_card > div > h6{
+        font-size: 2.25rem;
+    }
+
+    .did_you_know_section_card > div > p{
+        font-size: 1rem;
+    }
+    .story_section > div{
+        padding-bottom: 0;
+    }
+
+    .story_section_img_div > img{
+        width: 90%
+    }
+
+    .story_section_img_div > button{
+        top: 0;
+        left: 20%;
+        transform: translate(-50%, -50%);
+    }
+
+    .story_section > div > div{
+        text-align: left;
+        padding: 4rem 1.5rem 4rem 4rem;
+    }
+    
+    .story_section,
+    .story_section > div{
+        align-items: unset;
+    }
+
+    .story_section > div > button{
+        margin-right: auto;
+    }
+
+    .story_section > div{
+        margin-top: -4rem;
+        z-index: 2;
+        margin-left: 3rem;
+    }
+    .event_section,
+    .event_section_first_card {
+        flex-direction: row;
+        text-align: start;
+        gap: 2rem;
+    }
+
+    .event_section_first_card,
+    .event_section_second_card {
+        align-items: unset;
+    }
+
+    .event_section_first_card,
+    .event_section_second_card {
+        display: grid;
+        grid-template-columns: 50% auto;
+        text-align: start;
+        gap: 2rem;
+    }
+
+    .event_section_second_card_sec_div {
+        grid-row: 1;
+    }
+
+    .event_section_first_card>img,
+    .event_section_second_card>img {
+        width: 100%;
+    }
+
+    .event_section_first_card>div>h3,
+    .event_section_second_card>div>h3 {
+        font-size: 1.75rem;
+        margin-top: unset;
+    }
+
+    .event_section_first_card>div>p,
+    .event_section_second_card>div>p {
+        font-size: 1rem;
+    }
+    .email_section>div>input {
+        width: 70%
+    }
+
+
+
+    footer > h1{
+        width: 20%;
+    }
+    
+    footer > div{
+        width: 30%;
+    }
+
+    .footer_contact_us{
+        margin-left: unset;
+    }
+
+    .footer_follow_us{
+        margin-left: auto;
+    }
+
+    footer > h2{
+        width: 40%;
+        margin-left: unset;
+    }
+}
+
+@media screen and (min-width: 1440px){
+    nav{
+        grid-template-columns: auto 15%;
+    }
+
+    nav > div{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    ul{
+        width: 50%;
+        margin-right: 4.438rem;
+        align-self: center;
+    }
+
+    .nav_btn{
+        align-self: flex-start;
+    }
+
+    nav > div > h1{
+        margin: 0;
+    }
+    .stop_climate_change_section{
+        padding-top: 8rem;
+        padding-bottom: 8rem;
+    }
+
+    .stop_climate_change_section{
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+
+    .stop_climate_change_section > h2{
+        font-size: 4.5rem;
+        margin-bottom: 0;
+        width: 40%;
+    }
+
+    .stop_climate_change_section > div > div{
+        padding: 4rem;
+    }
+
+    .stop_climate_change_section > div > div > h3{
+        font-size: 2.75rem;
+    }
+
+    
+    .layout_padding{
+        padding: 2.125rem 10rem;
+    }
+
+    .flood_font{
+        font-size: 4.5rem;
+    }
+    .take_action_section{
+        grid-template-columns: auto auto auto auto;
+        column-gap: 3.5rem;
+        padding-top: 4.938rem;
+        padding-bottom: 4.938rem;
+    }
+
+    .take_action_section > div > h5{
+        font-size: 1.75rem;
+    }
+    .what_we_do_session > div > p{
+        font-size: 2.75rem;
+        text-align: left;
+    }
+
+    .what_we_do_session > div > button{
+        margin-left: 0;
+    }
+
+    .what_we_do_session > section{
+        flex-direction: row;
+        gap: 4rem;
+    }
+
+    .what_we_do_session_card > div{
+        text-align: left;
+        margin-top: 3rem;
+    }
+
+    .what_we_do_session_card > div > button{
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .what_we_do_session_card > img{
+        top: unset;
+        right: 0;
+        left: unset;
+        transform: translate(10%, -15%);
+        width: 100%;
+    }
+    .did_you_know_section_card > div > h6{
+        font-size: 2.75rem;
+    }
+
+    .did_you_know_section_card > div > p{
+        font-size: 1.25rem;
+    }
+    .story_section{
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+
+    .story_section_img_div,
+    .story_section_img_div > img{
+        width: 100%;
+    }
+
+    .story_section > div{
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    .story_section > div > div{
+        width: 80%;
+        margin-left:20%;
+        /* font-size: 5rem; */
+    }
+    
+    .square_btn {
+        margin-left: 8rem;
+    }
+
+    .story_section{
+        padding-top: 6.75rem;
+        padding-bottom: 6.75rem;
+    }
+    .event_section{
+        padding-top: 8rem;
+        padding-bottom: 8rem;
+    }
+
+    .event_section_first_card>div>h3,
+    .event_section_second_card>div>h3 {
+        font-size: 2.75rem;
+    }
+
+    .event_section_first_card>div>p,
+    .event_section_second_card>div>p {
+        font-size: 1.25rem;
+        margin-bottom: 3rem;
+    }
+
+    .event_section_first_card,
+    .event_section_second_card {
+        gap: 4rem;
+    }
+
+    .event_section>h2 {
+        width: 80%;
+    }
+
+
+    .event_section_rel_btn {
+        visibility: hidden;
+    }
+
+    .hidden_btn {
+        display: block;
+        margin-bottom: 3rem;
+    }
+    .email_section {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .email_section>h6 {
+        font-size: 1.75rem;
+        width: 50%;
+    }
+
+    .email_section > div{
+        width: 50%;
+    }
+
+
+    
+    footer{
+        justify-content: space-between;
+    }
+
+    footer > h1{
+        width: 10%;
+    }
+    
+    footer > div{
+        width: 14%;
+    }
+
+    .footer_contact_us{
+        margin-left: auto;
+        margin-right: 2rem;
+    }
+
+    .footer_follow_us{
+        margin-left: unset;
+    }
+
+    footer > h2{
+        width: min-content;
+        margin-left: auto;
+    }
+    
+}
