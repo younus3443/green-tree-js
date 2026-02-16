@@ -2,6 +2,7 @@
 /* HEADER-PART */
 body{
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
 }
 .container {
     background: white;
@@ -114,8 +115,11 @@ body{
 
 .grid{
     display: grid;
+    padding-left: 40px;
+    padding-right:40px
     
 }
+
 
 .rounded{
     border-radius: 20px;
@@ -170,10 +174,11 @@ body{
 .square_btn{
     border: none;
     outline: none;
-    font-size: 0.875rem;
-    padding: 11px 40px;
-    letter-spacing: 0.56px;
+    font-size: 1rem;
+    font-weight:900;
+    padding: 11px 20px;
     opacity: 1;
+    margin-left: 10%;
     
 }
 
@@ -181,6 +186,8 @@ body{
     font-family: "flood-std", sans-serif;;
     line-height: 1.1;
     font-size: 2.75rem;
+    margin-left: 10%;
+    margin-top: 15%;
 }
 .take_action_section{
         grid-template-columns: auto auto;
@@ -205,12 +212,14 @@ body{
         transform: translate(-50%, -50%);
     }
     .what_we_do_session{
-    padding-top: 2.688rem;
-    padding-bottom: 2.688rem;
+    padding: 2rem;
 }
 
 .what_we_do_session > section{
     flex-direction: column;
+    margin-left:5%;
+    margin-right:5%
+    
 }
 
 .what_we_do_session > div{
@@ -246,7 +255,7 @@ body{
     top: 14%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 90%;
+    width: 80%;
     max-height: 60%;
 }
 
@@ -258,6 +267,7 @@ body{
 
 .what_we_do_session_card > div > div > h6{
     font-size: 1.125rem;
+
 }
 
 .what_we_do_session_card > div > div > p{
@@ -265,11 +275,26 @@ body{
     margin-top: 1.375rem;
     margin-bottom: 1.938rem;
 }
+.social_icons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20%;
+}
+
+/* Green circular background */
+.social_icons img {
+    width: 20px;
+    height: 20px;
+    padding: 6px;
+    background-color: #C1F7D5;
+    border-radius: 50%;
+}
 .did_you_know_section{
     background: transparent url('./assets/home/Did\ you\ know\ background.png') no-repeat 0% 0% ;
     background-size: cover;
     flex-direction: column;
-    padding-top: 4rem;
+    padding-top: rem;
     padding-bottom: 4rem;
 }
 
@@ -282,8 +307,10 @@ body{
 }
 
 .did_you_know_section_card{
-    padding: 2rem;
+    padding: 1rem;
     margin-top: 1rem;
+    margin-left: 10%;  /* added margin for mobile */
+    margin-right: 10%;
 }
 
 .did_you_know_section_first_card{
@@ -298,7 +325,10 @@ body{
     transform: translate(-50%, -50%);
     width: max-content;
 }
-
+.did-msg{
+    height:20px;
+    margin-top:0.5rem
+}
 .did_you_know_section_card > div{
     justify-content: space-between;
     align-items: center;
@@ -309,16 +339,18 @@ body{
 .did_you_know_section_card > div > span > svg{
     height: 32px;
     width: 32px;
-    padding: 3px;
+    /* padding: 3px; */
 }
 
 .did_you_know_section_card > div > h6{
     font-size: 1.375rem;
     color:#354463;
+    
 }
 
 .did_you_know_section_card > div > p{
     font-size: 0.875rem;
+    margin-bottom: 0;
 }
 .story_section{
     flex-direction: column;
