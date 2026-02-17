@@ -267,6 +267,7 @@ body{
 
 .what_we_do_session_card > div > div > h6{
     font-size: 1.125rem;
+    
 
 }
 
@@ -279,16 +280,18 @@ body{
     display: flex;
     flex-direction: column;
     gap: 10px;
-    margin-top: 20%;
+    margin-top: 10%;
+    padding-right: 1rem;
 }
 
 /* Green circular background */
 .social_icons img {
-    width: 20px;
-    height: 20px;
+    width: 16px;
+    height: 16px;
     padding: 6px;
     background-color: #C1F7D5;
     border-radius: 50%;
+    object-fit: contain;
 }
 .did_you_know_section{
     background: transparent url('./assets/home/Did\ you\ know\ background.png') no-repeat 0% 0% ;
@@ -314,14 +317,14 @@ body{
 }
 
 .did_you_know_section_first_card{
-    margin-top: 5rem;
+    margin-top: 7rem;
     position: relative;
 }
 
 .did_you_know_section_first_card > button{
     position: absolute;
     top: 0;
-    left: 50%;
+    left: 40%;
     transform: translate(-50%, -50%);
     width: max-content;
 }
@@ -334,23 +337,27 @@ body{
     align-items: center;
     gap: 1rem;
     margin-bottom: 1rem;
+    padding-left: 0.5rem;
 }
 
 .did_you_know_section_card > div > span > svg{
     height: 32px;
     width: 32px;
-    /* padding: 3px; */
 }
 
 .did_you_know_section_card > div > h6{
     font-size: 1.375rem;
     color:#354463;
+    margin-top: 26%;
     
 }
 
 .did_you_know_section_card > div > p{
     font-size: 0.875rem;
     margin-bottom: 0;
+    width:75%;
+    color:#354463;
+
 }
 .story_section{
     flex-direction: column;
@@ -365,18 +372,22 @@ body{
 .story_section_img_div > button{
     position: absolute;
     top: 0;
-    left: 50%;
+    left: 40%;
     transform: translate(-50%, -50%);
 }
 
 .story_section_img_div > img{
     width: 100%;
+    margin-right: 10%;
 }
 
 .story_section > div{
     flex-direction: column;
     align-items: center;
     padding-bottom: 2.563rem;
+    margin-left: 10%;
+    margin-right: 10%;
+    
 }
 
 .story_section > div > div{
@@ -386,8 +397,14 @@ body{
 }
 
 .story_section > div > div > p{
-    font-size: 1.375rem;
+    font-size: 1.4rem;
+    font:bold;
+    font-weight: 700;
     margin-bottom: 1rem;
+    height:200px;
+    /* margin-top: -1%; */
+    text-align: center;
+    
 }
 
 .story_section > div > div > span{
@@ -398,6 +415,12 @@ body{
 .event_section_second_card {
     flex-direction: column;
     text-align: center;
+}
+.event_section h2{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .event_section {
@@ -412,12 +435,22 @@ body{
 .event_section_first_card>div>img,
 .event_section_second_card>div>img {
     width: 100%;
+    
 }
 
+.event-img,
+.event_section_second_card>div{
+    padding-left: 10%;
+    padding-right: 10%;
+
+    
+}
 .event_section_first_card>div>h3,
 .event_section_second_card>div>h3 {
     font-size: 1.375rem;
     margin-top: 1.875rem;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .event_section_first_card>div>p,
@@ -425,6 +458,14 @@ body{
     font-size: 0.875rem;
     margin-top: 1.5rem;
     margin-bottom: 1rem;
+    padding-left: 10%;
+    padding-right: 10%;
+    row-gap: 20px;
+}
+.square_btn{
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: center;
 }
 
 .event_section_first_card,
@@ -441,7 +482,7 @@ body{
     position: absolute;
     width: max-content;
     top: 0;
-    left: 50%;
+    left: 40%;
     transform: translate(-50%, -50%);
 }
 
@@ -450,24 +491,32 @@ body{
 }
 .email_section {
     flex-direction: column;
-    padding-top: 2.25rem;
+    height: 216px;
+    /* padding-top: 2.25rem; */
     padding-bottom: 2.25rem;
 }
 
 .email_section>h6 {
     font-size: 1.375rem;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 0;
 }
 
 .email_section>div {
     justify-content: space-between;
     margin-top: 1.875rem;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .email_section>div>input {
-    width: 50%
+    width: 70%;
+    
 }
 
 footer{
+    display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     row-gap: 3rem;
@@ -477,7 +526,9 @@ footer{
 footer > h1{
     font-size: 1.125rem;
     width: 30%;
+    padding-left: 10%;
 }
+
 
 footer > div{
     width: 40%;
@@ -485,6 +536,7 @@ footer > div{
 
 .footer_contact_us{
     margin-left: auto;
+    margin-right: 10%;
 }
 
 footer > h2{
