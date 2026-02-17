@@ -6,7 +6,6 @@ body{
 }
 .container {
     background: white;
-    /* border-radius: 12px; */
 }
 
 .header {
@@ -75,8 +74,8 @@ body{
 
 .stop_climate_change_section > h2{
     width: min-content;
-    margin-bottom: 7.938rem;
-    margin-left: 2rem
+    margin-bottom: 13.938rem;
+    margin-left: 1.5rem
 }
 
 .stop_climate_change_section > div > div{
@@ -103,7 +102,7 @@ body{
 .stop_climate_change_section > div > div > button{
     position: absolute;
     top: 0;
-    left: 50%;
+    left: 40%;
     transform: translate(-50%, -50%);
 }
 .flex{
@@ -589,41 +588,17 @@ footer > div > div > a{
         border-radius: 40px;
         margin-top: 1.5rem;
     }
+    .stop_climate_change_section {
+        background-image: url('./assets/home/annie-spratt-135307-unsplash.png');
+        background-size: cover; 
+        background-repeat: no-repeat;
+        object-fit: cover;
+    }
     
-    nav{
-        grid-template-columns: auto 25%;
-    }
-
-    ul{
-        flex-direction: row;
-        align-self: flex-start;
-        padding: 0;
-        width: 70%;
-        justify-content: space-between;
-    }
-
-    nav > div{
-        flex-direction: column;
-        margin-bottom: 0;
-        align-items: flex-start;
-    }
-
-    .list_items_margin{
-        margin-bottom: 0;
-    }
-
-    nav > div > h1{
-        margin-bottom: 1rem;
-        font-size: 1.375rem;
-    }
-
-    .nav_btn{
-        height: fit-content;
-        font-size: 1.125rem;
-        align-self: center;
-    }
     .stop_climate_change_section > h2{
         margin-bottom: 3rem;
+        margin-left: 4rem;
+        font-size: 3rem;
     }
 
     .stop_climate_change_section > div > div{
@@ -632,6 +607,7 @@ footer > div > div > a{
 
     .stop_climate_change_section > div > div > h3{
         font-size: 2.688rem;
+        text-align: left;
     }
 
     .stop_climate_change_section > div > div > button{
@@ -639,8 +615,9 @@ footer > div > div > a{
         transform: translate(0,-50%);
         margin-left: 3.688rem;
     }
-    .layout_padding{
-        padding: 1.25rem 4rem;
+
+    .stop_climate_change_section .issue_read{
+        text-align: start;
     }
     .take_action_section > div > h5{
         font-size: 1.375rem;
