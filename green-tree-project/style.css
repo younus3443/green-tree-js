@@ -6,18 +6,18 @@ body{
 }
 .container {
     background: white;
-    border-radius: 12px;
+    /* border-radius: 12px; */
 }
 
 .header {
-    padding: 24px 20px;
+    padding: 8% 7%;
     background: #fafafa;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .logo {
-    font-size: 20px;
+    font-size: clamp(18px, 2.5vw, 28px);
     font-weight: 700;
     color:#354463;
     line-height: 1.3;
@@ -29,13 +29,12 @@ body{
     display: flex;
     flex-direction: column;
     gap: 10px;
-    margin-right: 10px;
 }
 
 .nav a {
     color: #354463;
     text-decoration: none;
-    font-size: 15px;
+    font-size: clamp(14px, 1.5vw, 18px);
     transition: color 0.2s;
 }
 
@@ -57,7 +56,7 @@ body{
     font:bold;
     border: none;
     border-radius: 20px;
-    margin-bottom: 1rem;
+    margin-bottom: 1%;
     margin-top: -1rem;
     
 }
@@ -559,6 +558,7 @@ footer > div > div > a{
 
 
 @media screen and (min-width: 768px){
+    
     nav{
         grid-template-columns: auto 25%;
     }
