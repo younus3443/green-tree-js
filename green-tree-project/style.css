@@ -250,7 +250,7 @@ body{
 
 .what_we_do_session_card > img{
     position: absolute;
-    top: 14%;
+    top: 8.5%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 80%;
@@ -265,6 +265,8 @@ body{
 
 .what_we_do_session_card > div > div > h6{
     font-size: 1.125rem;
+    margin-top: -10%;
+    margin-bottom: 0;
     
 
 }
@@ -284,8 +286,8 @@ body{
 
 /* Green circular background */
 .social_icons img {
-    width: 16px;
-    height: 16px;
+    width: 20px;
+    height: 20px;
     padding: 6px;
     background-color: #C1F7D5;
     border-radius: 50%;
@@ -461,9 +463,11 @@ body{
     row-gap: 20px;
 }
 .square_btn{
-    padding-left: 40px;
-    padding-right: 40px;
+    /* padding-left: 40px;
+    padding-right: 40px; */
     text-align: center;
+    font-family:Helvetica;
+
 }
 
 .event_section_first_card,
@@ -619,36 +623,59 @@ footer > div > div > a{
     .stop_climate_change_section .issue_read{
         text-align: start;
     }
+    .take_action_section{
+        height:250px
+    }
     .take_action_section > div > h5{
         font-size: 1.375rem;
+        margin-left:10%;
+        margin-top: 0;
+        
+    }
+    .take_action_section button{
+        margin-left: 0%;
     }
 
     .take_action_section > div > p{
         font-size: 1rem;
+        margin-left: 10%;
+        margin-top: 0;
     }
     .what_we_do_session > section{
         flex-direction: column;
+        /* gap: 3rem; */
+
+        
     }
+    /* .what_we_do_session {
+        min-width: fit-content
+    } */
 
     .what_we_do_session > div > p{
-        font-size: 2.25rem;
+        font-size: 2.2em;
         text-align: left;
+        margin-left:6%
+        
+        
     }
 
     .what_we_do_session > div > button{
-        margin-left: 0;
+        margin-left: 6%;
     }
 
     .what_we_do_session_card{
         padding-bottom: 3.125rem;;
         margin-top: 7rem;
+        height:15rem;
+        margin-top: 6rem;
     }
 
     .what_we_do_session_card > img{
         left: 30px;
         transform: translate(0, -50%);
         width: 45%;
-        max-height: 70%;
+        max-height: 100%;
+        margin-top: 8%;
         
     }
 
@@ -656,7 +683,6 @@ footer > div > div > a{
         padding: 0;
         padding-top: 2.25rem;
         text-align: left;
-        
         grid-template-columns: 1fr 1fr;
         grid-template-areas: "col2 col1";  
     }
@@ -669,32 +695,34 @@ footer > div > div > a{
     }
 
     .what_we_do_session_card > div > button{
-        margin-left: 5rem;
-        margin-top: 25rem;
+        margin-left: 8rem;
+        margin-top: 10rem;
         position: absolute;
-        left:2rem;
-        margin-bottom:4rem;
-
-        
+        left:2rem;  
     }
 
     .what_we_do_session_card > div > div > p{
         margin-bottom: 0;
-        margin-top: -1.5rem;
+        margin-left: 41%;
         padding-bottom: 2rem;
         margin-right: 3.625rem;
-        position: relative;
+        font-size: 1rem;
+        width:50%
     }
 
     .what_we_do_session_card > div > div > h6{
         font-size: 1.5rem;
-        width: 60%;
+        width: 50%;
+        margin-left:40%;
+        font-size: 2rem;
+        
     }
     .did_you_know_section{
         flex-direction: row;
         justify-content: space-between;
         gap: 2rem;
         background-position: 50% 50%;
+
     }
 
     .did_you_know_section  > div{
@@ -855,42 +883,20 @@ footer > div > div > a{
         width: auto;
     }
     
-    nav{
-        grid-template-columns: auto 15%;
-    }
-
-    nav > div{
-        flex-direction: row;
-        justify-content: space-between;
-    }
-
-    ul{
-        width: 50%;
-        margin-right: 4.438rem;
-        align-self: center;
-    }
-
-    .nav_btn{
-        align-self: flex-start;
-    }
-
-    nav > div > h1{
-        margin: 0;
-    }
+    
     .stop_climate_change_section{
         padding-top: 8rem;
         padding-bottom: 8rem;
-    }
-
-    .stop_climate_change_section{
         flex-direction: row-reverse;
-        align-items: center;
+        align-items: flex-start;  
+        background-position: center 15%;
     }
 
     .stop_climate_change_section > h2{
         font-size: 4.5rem;
-        margin-bottom: 0;
-        width: 40%;
+        margin-top: 0;
+        width: 50%;
+        
     }
 
     .stop_climate_change_section > div > div{
@@ -899,11 +905,13 @@ footer > div > div > a{
 
     .stop_climate_change_section > div > div > h3{
         font-size: 2.75rem;
+    
     }
 
     
     .layout_padding{
-        padding: 2.125rem 10rem;
+        padding: 1.125rem 7.5rem;
+
     }
 
     .flood_font{
@@ -911,47 +919,68 @@ footer > div > div > a{
     }
     .take_action_section{
         grid-template-columns: auto auto auto auto;
-        column-gap: 3.5rem;
         padding-top: 4.938rem;
-        padding-bottom: 4.938rem;
+        height:13rem;
+        padding-left: 9%;
     }
 
     .take_action_section > div > h5{
         font-size: 1.75rem;
     }
-    .what_we_do_session > div > p{
-        font-size: 2.75rem;
-        text-align: left;
-    }
-
-    .what_we_do_session > div > button{
-        margin-left: 0;
-    }
-
     .what_we_do_session > section{
-        flex-direction: row;
-        gap: 4rem;
+    flex-direction: row;
+    gap: 5%;
+    align-items: stretch;
+    }
+    .what_we_do_session > div > button{
+        margin-left: 2rem;
+    }
+    .what_we_do_session > div > p{
+        margin-left: 2rem;
+    }
+
+    .what_we_do_session_card{
+        position: relative;
+        padding-top: 6rem;
+        margin-bottom: 8rem;
+        min-height: 450px;
+    }
+
+
+    .what_we_do_session_card > img{
+        position: absolute;
+        top: 1.5rem;
+        left: 4rem;
+        transform: translateY(-40%);
+        width: 90%;
+        
+    }
+    .flex{
+        margin-left: 0rem;
     }
 
     .what_we_do_session_card > div{
-        text-align: left;
-        margin-top: 3rem;
+        display: flex;
+        flex-direction: column;
+        padding: 9rem 2rem 2rem;
+        
     }
-
-    .what_we_do_session_card > div > button{
-        margin-left: 0;
-        margin-right: 0;
+    .what_we_do_session_card > div > div > h6{
+        font-size: 1.7rem;
+        margin-top: -30%;
+    }  
+    .what_we_do_session_card > div > div > p{
+        font-size: 1.2rem;
     }
+    .what_we_do_session_card > div>button{
+        margin-top: 17rem;
+        margin-left: 2rem;
+        height:48px;
 
-    .what_we_do_session_card > img{
-        top: unset;
-        right: 0;
-        left: unset;
-        transform: translate(10%, -15%);
-        width: 100%;
     }
     .did_you_know_section_card > div > h6{
         font-size: 2.75rem;
+
     }
 
     .did_you_know_section_card > div > p{
