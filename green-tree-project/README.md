@@ -40,4 +40,22 @@ Green Tree Initiative/
 3. Make changes, run formatting/linting if applicable.
 4. Submit a pull request with a summary of the updates.
 
+## 🌍 Netlify Deployment Configuration
+
+This project is deployed using GitHub → Netlify integration.
+
+Because the site files are inside a subfolder, Netlify needs a configuration file to define the publish directory.
+
+netlify.toml
+[build]
+  publish = "green-tree-project"
+
+This tells Netlify to:
+
+- Look inside the green-tree-project folder
+
+- Serve index.html as the main entry page
+
+- Prevent 404 errors during deployment
+
 
