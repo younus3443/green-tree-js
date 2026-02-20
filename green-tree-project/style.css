@@ -142,11 +142,11 @@ body{
     font-size: 0.9rem; 
     margin-right: 0rem; 
 }
-.text{
+/* .text-b{
     font-weight: bold;
     font-size: 1.2rem;
     color: #354463;
-}
+} */
 
 
 
@@ -538,6 +538,7 @@ footer > h1{
     font-size: 1.125rem;
     width: 30%;
     padding-left: 10%;
+    color: #354463;
 }
 
 
@@ -553,15 +554,19 @@ footer > div{
 footer > h2{
     width: min-content;
     margin-left: auto;
+    color: #354463;
+    font-family: "flood-std", sans-serif;
 }
 
 footer > div > p{
     font-size: 0.688rem;
     margin-bottom: 6px;
+    color: #354463;
 }
 
 footer > div > div{
     font-size: 0.875rem;
+    color: #354463;
 }
 
 footer > div > div > a{
