@@ -50,9 +50,10 @@ body{
     color: #354463;
     text-decoration: none;
     text-align: center;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 800;
     font:bold;
+    font-family: Helvetica;
     border: none;
     border-radius: 20px;
     margin-bottom: 1%;
@@ -652,13 +653,7 @@ footer > div > div > a{
     }
     .what_we_do_session > section{
         flex-direction: column;
-        /* gap: 3rem; */
-
-        
     }
-    /* .what_we_do_session {
-        min-width: fit-content
-    } */
 
     .what_we_do_session > div > p{
         font-size: 2.2em;
@@ -728,6 +723,7 @@ footer > div > div > a{
     }
     .did_you_know_section{
         flex-direction: row;
+        background-image: url('./assets/home/Did\ you\ know\ background-tablet.png');
         justify-content: space-between;
         gap: 2rem;
         background-position: 50% 50%;
@@ -900,7 +896,17 @@ footer > div > div > a{
         right:8%;
         position: absolute;
         padding-top: 4.5rem;
+        font-family: "flood-std", sans-serif;
         
+    }
+    footer .h2{
+        font-size: 2.5rem;
+        margin-top:12%;
+        margin-right:2%
+    }
+    .text_b{
+    color: #354463;
+    font-size: 1rem;
     }
     
     
@@ -1047,11 +1053,38 @@ footer > div > div > a{
     }
     .did_you_know_section_card > div > h6{
         font-size: 2.75rem;
+        margin-top: 50%;
+        margin-left: 8%;
+    }
+    .did_you_know_section_card{
+        height: 232px;
+    }
+    .did_you_know_section{
+        background-image: url('./assets/home/Did\ you\ know\ background-desktop.png');
+        padding-bottom: 10rem;
+        padding-top: 5rem;
+    }
+    .did_you_know_section >div >h2{
+        margin-top: -4%;
+
+    }
+    .did_you_know_section button{
+        margin-left: 6%;
+    }
+    .did_you_know_section >div > button{
+        margin-top: -4%;
+        margin-left: 8%;
+
+    }
+    .did_you_know_section_card > div > .social_icons{
+        margin-top: 25%;
 
     }
 
     .did_you_know_section_card > div > p{
         font-size: 1.25rem;
+        margin-top: 20%;
+        margin-left: 8%;
     }
     .story_section{
         flex-direction: row-reverse;
