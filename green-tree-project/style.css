@@ -309,6 +309,7 @@ body{
 
 .did_you_know_section > div > h2{
     margin-bottom: 1rem;
+    
 }
 
 .did_you_know_section_card{
@@ -619,7 +620,7 @@ footer > div > div > a{
         margin-top: 1.5rem;
     }
     .stop_climate_change_section {
-        background-image: url('./assets/home/annie-spratt-135307-unsplash.png');
+        background-image: url('./assets/home/annie-spratt-135307-tablet.png');
         background-size: cover; 
         background-repeat: no-repeat;
         object-fit: cover;
@@ -632,7 +633,8 @@ footer > div > div > a{
     }
 
     .stop_climate_change_section > div > div{
-        padding: 3.688rem 4rem;
+        padding: 2.688rem 3rem;
+        margin-top: 2%;
     }
 
     .stop_climate_change_section > div > div > h3{
@@ -751,7 +753,10 @@ footer > div > div > a{
     }
 
     .did_you_know_section_first_card{
-        margin-top: 1rem;
+        margin-top: 4rem;
+    }
+    .did_you_know_section_card >button{
+        margin-left: -12%;
     }
 
     .did_you_know_section_card > div > h6{
@@ -760,6 +765,15 @@ footer > div > div > a{
 
     .did_you_know_section_card > div > p{
         font-size: 1rem;
+    }
+    .did_you_know_section>div> h2{
+       margin-top: 20%;
+       margin-left: 25%;
+        
+    }
+    .did_you_know_section>div> button{
+        margin-left: 25%;
+
     }
     .story_section > div{
         padding-bottom: 0;
@@ -984,16 +998,19 @@ footer > div > div > a{
     .stop_climate_change_section > h2{
         font-size: 4.5rem;
         margin-top: 0;
-        width: 50%;
+        margin-left: -50%;
+        /* width: 50%; */
         
     }
 
     .stop_climate_change_section > div > div{
-        padding: 4rem;
+        padding: 3rem;
+        width:35%;
+        margin-left: 2%;
     }
 
     .stop_climate_change_section > div > div > h3{
-        font-size: 2.75rem;
+        font-size: 2rem;
     
     }
 
@@ -1081,15 +1098,15 @@ footer > div > div > a{
         padding-top: 5rem;
     }
     .did_you_know_section >div >h2{
-        margin-top: -4%;
+        margin-left:15%
 
     }
+    
     .did_you_know_section button{
         margin-left: 6%;
     }
     .did_you_know_section >div > button{
-        margin-top: -4%;
-        margin-left: 8%;
+        margin-left: 20%;
 
     }
     .did_you_know_section_card > div > .social_icons{
@@ -1120,6 +1137,7 @@ footer > div > div > a{
     .story_section > div > div{
         width: 110%;
         margin-left:20%;
+        margin-top:25%
         /* font-size: 5rem; */
     }
     .stories-read{
