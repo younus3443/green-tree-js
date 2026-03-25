@@ -1139,6 +1139,12 @@ footer > div > div > a{
         margin-top: 20%;
         margin-left: 8%;
     }
+    .did_you_know_section_card > div > .twitter > img{
+        margin-top: 40px;
+    }
+    .did_you_know_section_card > div > .facebook > img{
+        margin-top: -30px;
+    }
     
 
     .story_section_img_div{
@@ -1158,23 +1164,7 @@ footer > div > div > a{
         margin-top:130%
     }
 
-    /* .story_section{
-        flex-direction: row-reverse;
-        align-items: center;
-    }
-    .story_section > div{
-         position:relative;
-    }
     
-
-    .story_section > div > div{
-        position:absolute;
-        left:0%;          
-        top:100%;
-        transform:translateY(-50%);
-        width:clamp(350px, 45vw, 600px); 
-        min-height:clamp(150px, 28vw, 300px)
-    } */
 
     .story_section{
     position: relative;
@@ -1284,6 +1274,10 @@ footer > div > div > a{
          width:50%;
          margin-left: 0%;
          margin-top: 1.5rem;
+
+    }
+    .event_section_first_card>div>button{
+        margin-left: 10%;
 
     }
     
